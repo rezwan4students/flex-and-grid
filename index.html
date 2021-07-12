@@ -8,11 +8,66 @@
     h1{
         background-color: bisque;
     }
+/*
+    .container{
+        height: 350px;
+           
+        border: 2px solid grey;
+        display: flex;
+        justify-content:space-between;
+        align-items:center ;
+    
+    }
+    */
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 40px;
+        
+    }
+    .box {
+        background-color: bisque;
+        height: 50px; 
+        width: 100px; 
+      
+    }
 </style>
 
 </head>
 <body>
     <h1>We weill practice Flex and Grid</h1>
     <p>This is our first paragraph</p>
+
+    <div class="container">
+        <div class="box">
+            <h3>box - 1</h3>
+        </div>
+        <div class="box">
+            <h3>box - 2</h3>
+        </div>
+        <div class="box">
+            <h3>box - 3</h3>
+        </div>
+        <div class="box">
+            <h3>box - 4</h3>
+        </div>
+
+        <div class="box">
+            <h3>box - 5</h3>
+        </div>
+        <div class="box">
+            <h3>box - 6</h3>
+        </div>
+        <div class="box">
+            <h3>box - 7</h3>
+        </div>
+        <div class="box">
+            <h3>box - 8</h3>
+        </div>
+    </div>
+ 
+
+
 </body>
 </html>
